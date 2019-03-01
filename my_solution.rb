@@ -2,6 +2,12 @@
 
 # Tu solucion abajo:
 
+old_string="Ruby is cool"
+
+new_string= old_string.reverse.upcase
+
+
+
 # Pruebas NO LAS BORRES
 
 
@@ -27,12 +33,14 @@ end
 
 
 # Escriban un progrma que le pregunte al usuario por su primer nombre, luego el apellido y luego que imprima una oracion que diga "Hola <nombre> <apellido> como estas"
-Collapse
+#Collapse
+
+name=gets.chomp
+last_name=gets.chomp
+
+puts "Hola #{name } #{last_name } como estás"
+
+#Message Input
 
 
-
-
-Message Input
-
-
-Message Jose Ferney Medina
+#Message Jose Ferney Medina
